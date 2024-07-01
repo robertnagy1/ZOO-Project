@@ -1,0 +1,3 @@
+{
+    "postCreateCommand": "git clone https://github.com/ZOO-Project/ZOO-Project.git /workspace/ZOO-Project && cd /workspace/ZOO-Project && curl -o docker-compose.yml https://raw.githubusercontent.com/ZOO-Project/workshops/master/2024/foss4g-europe/files/sample-docker-compose.yml && curl -o zoows2024.tar.bz2 https://www.geolabs.fr/dl/zoows2024.tar.bz2 && tar -xvf zoows2024.tar.bz2 && curl -o docker/main.cfg https://raw.githubusercontent.com/ZOO-Project/workshops/master/2024/foss4g-europe/files/main.cfg && docker-compose up -d"
+  }
